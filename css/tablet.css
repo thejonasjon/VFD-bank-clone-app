@@ -1,0 +1,69 @@
+/* Tablet */
+html {
+    font-size: 50%;
+}
+
+header nav {
+    padding: 0 10vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 4rem;
+}
+
+header nav .nav-links ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.nav-links li {
+    margin: 0 2rem;
+}
+
+.nav-links a {
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+    color: #475466;
+}
+
+.nav-links .support-btn {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 2.5rem;
+    background-color: #E21A54;
+    color: #fff;
+    padding: 1.6rem 3rem;
+    border-radius: 0.8rem;
+}
+
+.hero {
+    padding: 0 10vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+}
+
+.hero-content {
+    text-align: left;
+}
+
+.hero-content h1 {
+    font-size: 8rem;
+    font-weight: 700;
+    line-height: 7.8rem;
+    color: #101828;
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 2.5rem;
+    color: #475467;
+    margin: 4rem 0;
+}

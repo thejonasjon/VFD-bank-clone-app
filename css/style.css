@@ -1,0 +1,463 @@
+/* Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+
+/* Desktop Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Roboto Flex", system-ui, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 62.5%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+header {
+    background-color: #fff;
+    padding: 2rem 0;
+    border-bottom: 2px solid #f6f5f5;
+}
+
+header nav {
+    padding: 0 10vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav .nav-links ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links li {
+    margin: 0 2rem;
+}
+
+.nav-links a {
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+    color: #475466;
+}
+
+.nav-links .support-btn {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 2.5rem;
+    background-color: #E21A54;
+    color: #fff;
+    padding: 1.6rem 3rem;
+    border-radius: 0.8rem;
+}
+
+.hero {
+    padding: 0 10vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+}
+
+.hero-content {
+    text-align: left;
+}
+
+.hero-content h1 {
+    font-size: 8rem;
+    font-weight: 700;
+    line-height: 7.8rem;
+    color: #101828;
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 2.5rem;
+    color: #475467;
+    margin: 4rem 0;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: 100%;
+}
+
+.nav-links .support-btn {
+
+    background-color: #E21A54;
+    color: #fff;
+    padding: 1.6rem 3rem;
+    border-radius: 0.8rem;
+}
+
+.cta-btn {
+    font-size: 1.5rem;
+    font-weight: 100;
+    line-height: 2.5rem;
+    background-color: #E21A54;
+    color: #fff;
+    padding: 1.6rem 3rem;
+    border-radius: 0.6rem;
+    text-decoration: none;
+}
+
+.trust-conatiner, .savings-container, .company-container, .art-loan-container  {
+    padding: 0 0 0 10vw;
+}
+
+.trust-conatiner .content, .savings-container .content,
+.company-container .content, .art-loan-container .content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15rem;
+}
+
+.content .text {
+    flex: 1 1 40vw;
+}
+
+.content .text h2 {
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 5.5rem;
+    color: #101828;
+}
+
+.content .text p {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: #494949;
+    margin: 3rem 0;
+}
+
+.content .image {
+    width: 40vw;
+    height: 60vh;
+}
+
+.content .image img{
+    width: 100%;
+    height: 100%;
+}
+
+/* Testimonials */
+.t-container {
+    padding: 20rem 5vw 5rem 5vw;
+}
+
+.t-container .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonials .heading h2{
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 5.9rem;
+    color: #101828;
+    margin: 5rem 0;
+}
+
+.t-container .card-cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.t-container .card-cont .card {
+    max-width: 30vw;
+    height: 70vh;
+    border-radius: 2rem;
+    display: flex;
+    padding: 4rem;
+}
+
+.t-container .card-cont .card .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.t-container .card-cont .card h3 {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 3.7rem;
+    color: #101828;
+}
+
+.t-container .card-cont .card p {
+    font-size: 1.7rem;
+    line-height: 2.8rem;
+    color: #000;
+    margin-top: 3rem;
+}
+
+.t-container .card-cont .customer-service {
+    background-image: url('/images/Frame-1.svg');
+}
+
+.t-container .card-cont .interest-rate{
+    background-image: url('/images/Frame-2.svg');
+}
+
+.t-container .card-cont .future {
+    background-image: url('/images/Frame-3-2.svg');
+}
+
+.t-container .card-cont .rewards {
+    background-image: url('/images/Frame-4-4.svg');
+}
+
+.t-container .card-cont > .customer-service, .interest-rate, .future, .rewards {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.testimonial-container {
+    padding: 0 5vw 5rem 5vw;
+}
+
+.testimonial-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonial-container .heading {
+    text-align: center;
+}
+
+.testimonial-container .heading h2{
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 5.9rem;
+    color: #101828;
+    margin: 5rem 0;
+}
+
+.testimonial-container .heading p{
+    font-size: 1.9rem;
+    font-weight: 400;
+    line-height: 2.9rem;
+    color: #475467;
+    margin: 5rem 0;
+}
+
+.testimonial-container .testimonial-card-cont {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+
+.testimonial-container .testimonial-card-cont .t-card {
+    max-width: 25vw;
+    border-radius: 2rem;
+    padding: 2rem 4rem;
+    background-color: #F1F4F7;
+    text-align: center;
+}
+
+.testimonial-container .testimonial-card-cont .text p{
+    font-size: 1.7rem;
+    line-height: 2.8rem;
+    color: #101828;
+}
+
+.testimonial-container .testimonial-card-cont .profile p{
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 4.4rem;
+    color: #101828;
+}
+
+/* V Mag */
+.v-mag-container {
+    padding: 15rem 10vw 15rem 10vw;
+}
+.v-mag-container .content{
+    background-color: #F9F9F9;
+    display: flex;
+    padding: 6rem 8rem;
+}
+
+.v-mag-container .content .text h3{
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 5.9rem;
+    color: #101828;
+}
+
+.v-mag-container .content .text p{
+    font-size: 1.7rem;
+    font-weight: 400;
+    line-height: 2.6rem;
+    color: #6d6c6c;
+}
+
+.join-form {
+    width: 100%;
+}
+
+.v-mag input[type="email"] {
+    padding: 1.5rem;
+    width: 20vw;
+    border: 2px solid #333;
+    border-radius: 0.5rem;
+    border: 0.1rem solid #a3a2a2;
+}
+
+.v-mag button {
+    padding: 1.5rem;
+    width: 20vw;
+    background-color: #E21A54;
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+
+/* Footer */
+footer {
+    background-image: url('/images/Pattern-Fotter-1.svg');
+    position: relative;
+}
+
+.footer-overlay {
+    background-color: #fff;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+footer .footer-container {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 10vw;
+}
+
+.footer-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.footer-top .t-navlinks ul li{
+    margin-bottom: 2.5rem;
+}
+
+.footer-top .t-navlinks h3{
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+    color: #374151;
+    margin-bottom: 2.5rem;
+}
+
+.footer-top .t-navlinks ul li a{
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2.1rem;
+    color: #374151;
+}
+
+.footer-top .icons .fa{
+    font-size: 1.5rem;
+    fill: #fff;
+    background-color: #374151;
+    padding: 0.8rem 1rem;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.footer-top .icons .fa-facebook{
+    padding: 0.8rem 1.2rem;
+}
+
+.footer-top .icons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+    padding: 5rem 0;
+}
+
+
+.footer-bottom .text p{
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 3.2rem;
+    color: #374151;
+}
+
+.footer-bottom .b-links{
+    margin: 2rem 0;
+}
+
+.footer-bottom .b-links a{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 3.2rem;
+    color: #0a0a0a;
+    letter-spacing: 0.1rem;
+}
+
+.footer-bottom p:last-child{
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 3.2rem;
+    color: #374151;
+}
+
+
+.footer-bottom  .contact-details p{
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 2.5rem;
+    color: #374151;
+    margin-bottom: 2rem;
+}
+
+.footer-bottom  .contact-details p span{
+    color: #e31b54;
+}
+
+hr{
+    border: 1px solid #f3ebeb;
+    outline: none;
+}
+
+.footer-bottom .license {
+    margin: 2rem 0;
+}
